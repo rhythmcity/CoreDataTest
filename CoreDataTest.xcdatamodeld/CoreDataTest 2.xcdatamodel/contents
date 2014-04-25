@@ -2,12 +2,13 @@
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13C1021" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="Entity1" syncable="YES"/>
     <entity name="Novel" representedClassName="Novel" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="version" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
         <element name="Entity1" positionX="-54" positionY="18" width="128" height="43"/>
-        <element name="Novel" positionX="-63" positionY="-18" width="128" height="88"/>
+        <element name="Novel" positionX="-63" positionY="-18" width="128" height="105"/>
     </elements>
 </model>
